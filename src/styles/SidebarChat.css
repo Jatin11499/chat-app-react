@@ -1,0 +1,42 @@
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(68, 68, 68);
+    background-color: #131c21;
+    color: lightgray;
+}
+
+.sidebarChat:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+.sidebarChat__info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebarChat__info{
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #131c21;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

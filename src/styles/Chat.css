@@ -1,0 +1,118 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+.chat__header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(68, 68, 68);
+    background-color:  #2a2f32;
+}
+
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+    color: lightgrey;
+}
+
+.chat__headerInfo > p{
+    color: gray;
+}
+
+.MuiSvgIcon-root{
+    color: lightgrey !important;
+}
+
+.chat__body{
+    flex: 1;
+    background-image: url("https://i.pinimg.com/originals/85/ec/df/85ecdf1c3611ecc9b7fa85282d9526e0.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #20262a;
+    margin-bottom: 30px;
+    color: lightgrey;
+}
+
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+    color: lightgrey;
+}
+
+.chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+    letter-spacing: 1px;
+}
+
+.chat__receiver{
+    margin-left: auto;
+    background-color: #063b36;
+}
+
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid rgb(68, 68, 68);
+    background-color: #131c21;
+}
+
+.chat__footer > form{
+    display: flex;
+    flex: 1;
+}
+
+.chat__footer > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+    background-color: #323739;
+}
+
+.chat__footer > form > button{
+    display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root{
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #131c21;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
